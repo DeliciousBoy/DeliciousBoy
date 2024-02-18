@@ -1,4 +1,4 @@
-  ![ti](https://github.com/DeliciousBoy/DeliciousBoy/blob/main/giphy.gif)
+  ![ti](https://github.com/DeliciousBoy/DeliciousBoy/blob/main/monkey-developer.gif))
 ========================================================================================================================================
 
 * 🌍  I'm based in Chonburi, Thailand
