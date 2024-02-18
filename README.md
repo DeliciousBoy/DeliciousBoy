@@ -1,4 +1,4 @@
-Hi ![](https://github.com/DeliciousBoy/DeliciousBoy/blob/main/giphy.gif)My name is Wittaya Tangdorn
+  ![ti](https://github.com/DeliciousBoy/DeliciousBoy/blob/main/giphy.gif)
 ========================================================================================================================================
 
 * 🌍  I'm based in Chonburi, Thailand
