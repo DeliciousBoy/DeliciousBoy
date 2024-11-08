@@ -1,4 +1,4 @@
-<img src="https://github.com/DeliciousBoy/DeliciousBoy/blob/main/snake.yml" alt="Snake animation" />
+<img src="https://github.com/DeliciousBoy/DeliciousBoy/blob/main/snake.svg" alt="Snake animation" />
 
 ###
 
