@@ -1,0 +1,28 @@
+name: Generate .env file
+
+on:
+  workflow_dispatch:  # สามารถรันได้แบบ manual
+
+jobs:
+  generate-env:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create .env file
+        run: |
+          echo "APP_ENV=${{ vars.APP_ENV }}" >> .env
+          echo "DEBUG=${{ vars.DEBUG }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "API_KEY=${{ secrets.API_KEY }}" >> .env
+
+      - name: Show .env content (for debugging, remove in production)
+        run: cat .env
+
+      - name: Upload .env as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: env-file
+          path: .env
